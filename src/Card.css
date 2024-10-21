@@ -1,0 +1,206 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-content{
+    display: flex;
+    gap: 30px;
+    
+}
+.nav-content li a{
+    color: gray;
+    font-size: 14px;
+     
+}
+
+.nav-content li a:hover{
+    color: black;
+     
+}
+
+.line{
+    
+    height: 1px;
+    background: gray;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.nav-div2{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.nav-div2:hover{
+    cursor: pointer;
+}
+
+.avatar:hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 3px solid orange;
+
+}
+
+section{
+    align-items: center;
+    
+}
+
+.section-content{
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.images div img{
+    border-radius: 12px;
+}
+
+.images div img:hover{
+    border: 3px solid orange;
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text-p{
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.text-pp{
+    font-size: 12px;
+    color: gray;
+}
+
+.dollar-x{
+    display: flex;
+    gap: 20px;
+}
+
+.dollar{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.dollar-xx{
+    padding: 1px 20px;
+    font-size: 14px;
+    background: #000;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+}
+
+.del{
+    color: gray;
+}
+
+
+
+.btn-1{
+    display: flex;
+    gap: 20px;
+    padding: 15px 50px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+   justify-content: space-between;
+    align-items: center;
+    background: darkgrey;
+    border-radius: 5px;
+    
+    
+}
+
+
+.btn-2{
+    margin-left: 20px;
+    padding: 12px 50px;
+    border: 0;
+    background: #DA6E2C;
+    border-radius: 5px;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+}
+
+.karzina{
+    position: absolute;
+   top: 30px;
+   right: 230px;
+}
+
+.add{
+    padding-right: 20px;
+}
+
+.add_text{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.textss{
+    color: darkgray;
+}
+
+.imgssss{
+    width: 300px;
+}
+
+.imgss{
+    width: 70px;
+    margin-left: 5px;
+}
+
+.btn{
+    display: flex;
+}
+
+.div__div{
+    display: flex;
+}
+
+
+
+
